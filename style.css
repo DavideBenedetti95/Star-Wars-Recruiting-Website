@@ -23,11 +23,11 @@ h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
 
 body{
     background-color: var(--bl2);
-    box-sizing: border-box;
 }
 
 html{
     scroll-behavior: smooth;
+    /* box-sizing: border-box; */
 }
 
 button{
@@ -209,11 +209,9 @@ video {
     position: relative;
     background-color: var(--bl2);
     top: -100px;
-    min-height: 300px;
-    min-width: 700px;
+    min-height: 250px;
+    min-width: 35%;
   }
-
-  
 
   .custom-height-footer{
     min-height: 30vh;
@@ -230,6 +228,8 @@ video {
   input::placeholder{
     font-size: 20px;
   }
+
+
 
 
   
@@ -270,7 +270,7 @@ video {
     }
 
     .article-card {
-        width: 300px;
+        width: 260px;
         height: 180px;
         border-radius: 12px;
         overflow: hidden;
@@ -279,13 +279,6 @@ video {
         transition: all 300ms;
       }
 
-      .custom-col-footer{
-        position: relative;
-        background-color: var(--bl2);
-        top: 0px;
-        min-height: 300px;
-        min-width: 700px;
-      }
 
       input{
         min-width: 150px;
@@ -294,6 +287,11 @@ video {
         background: transparent;
       }
 
+      .custom-col-footer{
+        position: relative;
+        background-color: var(--bl2);
+        top: 0px;
+      }
 
 }
 
@@ -325,8 +323,8 @@ video {
       bottom: 200px;
   }
     .article-card {
-        width: 200px;
-        height: 100px;
+        width: 220px;
+        height: 150px;
         border-radius: 12px;
         overflow: hidden;
         position: relative;
@@ -334,13 +332,13 @@ video {
         transition: all 300ms;
       }
 
-    .custom-col-footer{
+      .custom-col-footer{
         position: relative;
         background-color: var(--bl2);
-        top: -30px;
-        min-height: 300px;
-        min-width: 700px;
+        top: 0px;
+        width: 100%;
       }
+
 }
 
 /* Media Query Laptop */
@@ -374,6 +372,13 @@ video {
   position: relative;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 300ms;
+}
+
+.custom-col-footer{
+  position: relative;
+  background-color: var(--bl2);
+  top: -100px;
+  width: 100%;
 }
   
 }
