@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Death Star</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- KursorJS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <!-- Animate CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Aos CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- plyr CDN -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.7/plyr.css" />
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-navbar fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navigation" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_meet">MEET THE DEATH STAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_testimonial">JOIN THE EMPIRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section_roles">ROLES</a>
+                    </li>
+                </ul>
+                <button class="btn-nav-custom ms-auto">JOIN THE CREW</button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    <!-- Section Home and Section Meet the Death Star -->
+    <div class="container-fluid custom-bg">
+        <section id="section_home" class="container-fluid min-vh-100">
+            <div class="row min-vh-100">
+                <div class="col-12 text-center animate__animated animate__infinite animate__headShake">
+                    <img class="pt-5 mt-5" src="./media/Logo.png" alt="Logo">
+                    <h1 class="display-1 text-white text-center">The Death Star <br> Needs You!</h1>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section_meet" class="container min-vh-100">
+            <div class="row align-items-center min-vh-100">
+                
+                <div class="col-12 col-md-12 col-lg-6 mb-3 ms-md-0" data-aos="fade-right">
+                    <img class="cstm-image-death-star img-fluid" src="./media/deathstar_plan.jpg" alt="death star plan">
+                    <img class="cstm-image-luke" src="./media/luke_and_darth_vader_walking.jpeg" alt="luke and darth vader walking">
+                </div>
+                
+                <div class="col-12 col-md-12 col-lg-6" data-aos="fade-left">
+                    <h2 class="text-white ms-md-5 ms-lg-0">Maintaining order <br> through an Massive Weapon</h2>
+                    <p class="text-white mt-md-5 ms-md-5">Lorem ipsum dolor sit amet. consectetur adipiscing elit Integer elementum bibendum ex eget accumsan. ut eu nunc pellentesque.elementum eros ut. dignissim ligula. Pellentesque consequat ligula id est sodales, eget finibus lacus posuere_ Nunc sit amet dui molestie libero commodo consectetur. Aliquam euismod eros non sapen hendrerit vulputate. Praesent vel efficitur enim In vel erat lacinia erat etheitur dignissim.</p>
+                    <div class="d-flex justify-content-center mt-md-5">
+                        <button class="btn-nav-custom">LEARN MORE<i class="fa-solid fa-up-right-from-square ms-1"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <!-- End Section Home and Section Meet the Death Star -->
+    
+    <!-- Section Testimonial -->
+    <section id="section_testimonial" class="container min-vh-100" data-aos="fade-left">
+        <div class="row min-vh-100 align-items-center">
+            <div class="col-12 d-block my-auto">
+                <video id="player" playsinline controls data-poster="./media/poster.jpg">
+                    <source src="./media/video_testimonial.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Testimonial -->
+    
+    <!-- Section Roles -->
+    <section class="contaier-fluid bg-custom-roles">
+        <section id="section_roles" class="container min-vh-100">
+            <div class="row min-vh-100 d-flex align-items-center">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-around mb-md-0 mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="center">
+                        <div class="article-card">
+                            <div class="content">
+                                <i class="fa-solid fa-satellite-dish text-white"></i>
+                                <p class="title">Mantainence</p>
+                            </div>
+                            <img src="https://cdna.artstation.com/p/assets/images/images/019/430/490/large/ben-halligan-highresscreenshot-corridorlowangle.jpg?1563451655" alt="article-cover" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-around mb-md-0 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="center">
+                        <div class="article-card">
+                            <div class="content">
+                                <i class="fa-solid fa-gun text-white"></i>
+                                <p class="title">Security</p>
+                            </div>
+                            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F11%2Fbb-9e-1-2000.jpg" alt="article-cover" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-around mb-md-0 mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="center">
+                        <div class="article-card">
+                            <div class="content">
+                                <i class="fa-solid fa-heart-pulse text-white"></i>
+                                <p class="title">Healtcare</p>
+                            </div>
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/fx-6-droid_9f740560.jpeg?region=0%2C20%2C1000%2C563" alt="article-cover" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-around mb-md-0 mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="center">
+                        <div class="article-card">
+                            <div class="content">
+                                <i class="fa-solid fa-network-wired text-white"></i>
+                                <p class="title">Engeneering</p>
+                            </div>
+                            <img src="https://www.gannett-cdn.com/-mm-/67a969c11789a820ee670841e5c9fc1af5e6e65b/c=0-290-3993-2546/local/-/media/2018/05/14/USATODAY/USATODAY/636619047136570397-HS-250517-R.jpg" alt="article-cover" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- End Section Roles -->
+
+    <!-- Section Footer -->
+    <section class="container-fluid bg-black mb-2 mb-md-0">
+            <div class="row justify-content-center">
+                <div class="col-3 custom-col-footer d-flex flex-column justify-content-center">
+                    <h2 class="display-6 text-white text-center">Feeling ready? <br> Join Us </h2>
+                    <a href="#section_home"><button class="btn-nav-custom d-block mx-auto mt-3">JOIN THE CREW</button></a>
+                </div>
+            </div>
+        <section class="container-fluid">
+            <div class="row custom-height-footer">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+                    <img src="https://img.icons8.com/ios-filled/65/9F0000/empire.png"/>
+                    <p class="text-white mb-0 ms-1">GALACTIC<br>EMPIRE</p>
+                </div>
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <p class="text-white">SIGN UP FOR THE BEST NEWSLETTER OF THE GALAXY!</p>
+                    <input placeholder="EMAIL@EMAIL.COM" type="text" name="text" id="user_email">
+                </div>
+            </div>
+        </section>    
+    </section>   
+    
+    
+    
+    <!-- Plir JS -->
+    <script src="https://cdn.plyr.io/3.7.7/plyr.js"></script>
+
+    <script src="path/to/plyr.js"></script>
+    <script>
+        const player = new Plyr('#player');
+    </script>
+    <!-- Cursor JS -->
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script>
+        new kursor({
+            type: 1,
+            removeDefaultCursor: true,
+            color: 'rgb(246,246,246)',
+        })
+    </script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inizialize and AOS Setting -->
+    <script>
+        AOS.init({
+            delay: 350
+        });
+    </script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e3cc6884a7.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Personal JS -->
+    <script src="./main.js"></script>
+</body>
+</html>
