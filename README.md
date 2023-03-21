@@ -9,7 +9,7 @@ Library used:
 - Kursor Js
 - Fontawesome
 - Plyr JS
-
+- Animate CSS
 
 ## Demo Desktop
 ![](https://github.com/DavideBenedetti95/Star-Wars-Recruiting-Website/blob/main/Demo/Desktop_Demo.gif)
