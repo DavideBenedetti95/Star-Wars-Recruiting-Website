@@ -1,6 +1,6 @@
 # Star-Wars-Recruiting-Website
 
-#Progetto per mettere in pratica le prime nozioni apprese di JS, HTML, CSS e BOOTSTRAP.
+# Progetto per mettere in pratica le prime nozioni apprese di JS, HTML, CSS e BOOTSTRAP.
 
 This is a fictional recruiting page for the Star Wars Death Star.
 
