@@ -8,7 +8,7 @@ Library used:
 - AoS Js
 - Kursor Js
 - Fontawesome
-- Plyr JS
+- Plyr JS (rimosso per problemi lato server)
 - Animate CSS
 
 ## Demo Desktop
