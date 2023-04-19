@@ -8,6 +8,8 @@ Idea take from : https://www.behance.net/gallery/117830515/Star-Wars-Recruiting-
 
 LIVE DEMO: https://davidebenedetti95.github.io/Star-Wars-Recruiting-Website/
 
+Special thanks to : https://github.com/OssamaElBachraoui
+
 Library used:
 
 - AoS Js
